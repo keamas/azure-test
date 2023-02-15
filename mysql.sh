@@ -1,5 +1,7 @@
 #!/bin/bash
 
 sudo apt update
+sudo apt upgrade
 sudo apt install mysql-server
-sudo systemctl start mysql.service
+sudo apt install mysql-client
+mysql --version
